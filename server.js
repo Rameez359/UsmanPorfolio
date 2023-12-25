@@ -23,6 +23,8 @@ app.get("/", (req, res) => {
   });
 });
 
-app.get("/postIllustration", async (req, res) => {});
+app.get("/postIllustration", async (req, res) => {
+  //get data from folder and json files to show images with details
+});
 
 app.listen(3000, () => console.log("Server is running on port 3000"));
